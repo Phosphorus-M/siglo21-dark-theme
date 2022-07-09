@@ -1,0 +1,86 @@
+/* ==UserStyle==
+@name           meca.ues21.edu.ar
+@description    Dark very customizable theme for Canvas.
+@namespace    github.com/Phosphorus-M/siglo21-dark-theme
+@homepageURL  https://github.com/Phosphorus-M/siglo21-dark-theme
+@supportURL   https://github.com/Phosphorus-M/siglo21-dark-theme/issues
+@author       phosphorus-m <phosphorus-m@protonmail.com> (https://github.com/Phosphorus-M)
+@preprocessor stylus
+@version        0.0.1
+@author         Phosphorus
+==/UserStyle== */
+
+@-moz-document domain("meca.ues21.edu.ar") {
+    body, .overview, .lesson__sidebar, .lesson__content, .page__wrapper--white, .blocks-lesson{
+        background: #262626;
+        color: #f9f8f8;
+    }
+    
+    .lesson-link--active, .lesson-link:hover{
+        background: #2b2b2e;
+        color: #f9f8f8;
+    }
+    
+    .quiz-match__item-arrow>polygon, .quiz-match__item-tail>polygon{
+        fill: #262626;
+        stroke: #262626
+    }
+    
+    .block-embed__item,
+    .block-knowledge__wrapper,
+    .quiz-card__container,
+    .next-lesson{
+        background-color: #181616;
+        color: white;
+    }
+    
+    .quiz-multiple-choice-option:hover{
+        background: #39394e75;
+    }
+    
+    .checkbox__indicator{
+        border: 1px solid rgba(209, 209, 209, .2)
+    }
+    
+    .previous-lesson{
+        background-color: #262626d6;
+        color: white;
+    }
+    .page__header{
+        color: white;
+        background-color: #2e2e2e;
+    }
+    
+    .overview-list-item__link:active, .overview-list-item__link:hover{
+        background:  linear-gradient(127deg, #373946f0 80%, #262626d6 83%);
+    }
+    
+    
+    .button--menu i, .button--menu i:after, .button--menu i:before{
+        background: white;
+    }
+   
+    .lesson-header__title,
+    .overview-list-item__title,
+    .texto_simple span,
+    .texto_simple, .quizcontainer,
+    .paragraph{
+        color: #f9f8f8;
+    }
+    
+    div.overview-list-item__pie > svg > *{
+        stroke: white !important;
+    }
+    
+    .lesson-link--active .lesson-link__icon svg, .lesson-link:hover .lesson-link__icon svg,
+    .next-lesson__link .i,
+    div.overview-list-item__icon > svg{
+        fill: white;
+    }
+    
+    .fr-view p span,
+    .texto_simple table span {
+        color: white !important;
+    }
+
+}
